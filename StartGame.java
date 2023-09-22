@@ -5,9 +5,8 @@ public class StartGame {
  * @param args : arguments pass�s lors de l'appel depuis une invite de commandes
  */
 	public static void main(String[] args) {
-		/*TODO : faire en sorte que ça soit le joueur qui choisisse le nombre de questions*/
-		ConsoleQuizz quiz = new ConsoleQuizz(5);
+		System.out.println("Combien de questions voulez-vous ?");
+		ConsoleQuizz quiz = new ConsoleQuizz(new java.util.Scanner(System.in).nextInt());
 		quiz.start();
-		/*TODO*/
 	}
 }

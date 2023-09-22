@@ -15,7 +15,7 @@ public class ConsoleQuizz {
      * @param nbreQuestion : Le nombre de questions à poser au joueur
      */
     public ConsoleQuizz(int nbreQuestion) {
-        /*TODO*/
+        this.nbreQuestion = nbreQuestion;
     }
 
     /**

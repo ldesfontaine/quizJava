@@ -15,8 +15,8 @@ public class Question {
  * @return : le pays de la question
  */
 	public String getPays() {
-		return /*TODO*/;
-	}
+        return pays;
+    }
 /**
  * Permet de retourner la ville de la question
  * @return : la ville de la question
